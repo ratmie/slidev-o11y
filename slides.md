@@ -68,3 +68,8 @@ Open Telemetry(OTel)
 
 -- 
 ## 
+
+https://opentelemetry.io/status/
+JSだとLogがExperimental
+使えないの？わからん
+SDK自体はある
