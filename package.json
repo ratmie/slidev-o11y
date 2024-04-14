@@ -1,0 +1,29 @@
+{
+  "name": "slidev-o11y",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0-beta.2",
+    "@slidev/theme-default": "^0.25.0",
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
+    "textlint": "^14.0.4",
+    "textlint-rule-ja-no-mixed-period": "^3.0.1",
+    "textlint-rule-no-double-negative-ja": "^2.0.1",
+    "textlint-rule-no-dropping-the-ra": "^3.0.0",
+    "textlint-rule-no-hankaku-kana": "^2.0.1",
+    "textlint-rule-no-mix-dearu-desumasu": "^6.0.2",
+    "textlint-rule-prefer-tari-tari": "^1.0.3"
+  },
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "lint": "textlint slides.md"
+  }
+}
